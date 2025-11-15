@@ -1,0 +1,111 @@
+/* プライバシーポリシー・利用規約ページ用スタイル */
+body{
+    padding:24px;
+}
+
+.nav{
+    margin-bottom:20px;
+    padding-bottom:16px;
+    border-bottom:1px solid var(--border);
+}
+
+.nav a{
+    font-size:14px;
+}
+
+h1{
+    font-size:28px;
+    color:var(--primary);
+    border-bottom:4px solid var(--accent);
+    padding-bottom:10px;
+    margin-bottom:14px;
+}
+
+header{
+    margin-bottom:18px;
+}
+
+.meta{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    align-items:center;
+    margin-bottom:18px;
+}
+
+.meta .date{
+    color:var(--muted);
+    font-size:13px;
+}
+
+.intro{
+    background:#f6fbff;
+    border-left:5px solid var(--accent);
+    padding:14px 16px;
+    border-radius:8px;
+    margin-bottom:20px;
+    color:#222;
+}
+
+h2{
+    font-size:18px;
+    color:#34495e;
+    margin-top:22px;
+    margin-bottom:10px;
+    padding-bottom:6px;
+    border-bottom:2px solid var(--border);
+}
+
+p,li{
+    font-size:15px;
+    margin-bottom:12px;
+}
+
+ol,ul{
+    margin-left:20px;
+    margin-bottom:12px;
+}
+
+code{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Helvetica Neue", monospace;
+    background:#f3f4f6;
+    padding:2px 6px;
+    border-radius:6px;
+    font-size:13px;
+}
+
+.section{
+    margin-bottom:30px;
+}
+
+.contact{
+    background:#f8f9fa;
+    padding:20px;
+    border-radius:8px;
+    margin-top:30px;
+}
+
+.date{
+    text-align:right;
+    color:var(--muted);
+    margin-top:30px;
+    font-size:13px;
+}
+
+.footnote{
+    margin-top:26px;
+    text-align:right;
+    color:var(--muted);
+    font-size:13px;
+}
+
+@media (max-width:700px){
+    h1{
+        font-size:22px;
+    }
+    
+    h2{
+        font-size:16px;
+    }
+}
+
